@@ -6,11 +6,15 @@
 -게임의 제목만 보고 플레이 하는 사람들의 방심 유도
 
 <img width="978" height="550" alt="image" src="https://github.com/user-attachments/assets/61acde7b-83dd-4a2d-acb3-f648a1bc50de" /> 
+
+
 숲 – 점프맵
 다양한 함정을 회피해 결승점을 향해 나아가며 진행하면 할수록  재시작의 리스크가 커짐.
 맵속의 흰트를 보며 진행하면 수월.
 
  <img width="911" height="512" alt="image" src="https://github.com/user-attachments/assets/92aed705-a6f7-4b3f-82d4-476a3ec3ea8b" />
+
+ 
 사막 – 타임어택
 시간내에 결승점에 도달하지 못하면 땅이 무너지면서 유저가 죽으며 해당 스테이지를 다시 시작하게됨.
 
