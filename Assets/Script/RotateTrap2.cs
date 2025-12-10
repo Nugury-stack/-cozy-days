@@ -1,0 +1,21 @@
+using UnityEngine;
+
+[RequireComponent(typeof(Rigidbody))]
+public class RotateTrap2 : MonoBehaviour
+{
+    public float rotationSpeed = 90f; // 초당 회전 속도
+
+    private Rigidbody rb;
+
+    void Awake()
+    {
+        rb = GetComponent<Rigidbody>();
+        rb.isKinematic = true; // 유지
+    }
+
+    void FixedUpdate()
+    {
+        Quaternion deltaRotation = Quaternion.Euler(0f, rotationSpeed * Time.fixedDeltaTime, 0f);
+        rb.MoveRotation(rb.rotation * deltaRotation);
+    }
+}
